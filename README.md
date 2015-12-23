@@ -11,22 +11,20 @@ This template allow you automatically create all required files and folder for [
 
 # Architecture
 
-- 'App logic'
-- 'Interactor'
-- 'Interactor.swift' _Interactor_
-- 'InteractorIO.swift' _Interator IO interface_
-- 'Manager'
-- 'DataManager.swift' _Data manager_
-
-- 'Module Interface'
-- 'ModuleInterface.swift' _Interface_
-- 'ModuleDelegate.swift' _Interface delegate_
-
-- 'User Interface'
-- 'Presenter'
-- 'Presenter.swift' _Presenter_
-- 'View'
-- 'ViewController.swift' _Your ViewConroller_
-- 'ViewInterface.swift' _View interface_
-- 'Wireframe'
-- 'Wireframe.swift' _Wireframe_
+- `App logic`
+- `Interactor`
+- `Interactor.swift` _Interactor_
+- `InteractorIO.swift` _Interator IO interface_
+- `Manager`
+- `DataManager.swift` _Data manager_
+- `Module Interface`
+- `ModuleInterface.swift` _Interface_
+- `ModuleDelegate.swift` _Interface delegate_
+- `User Interface`
+- `Presenter`
+- `Presenter.swift` _Presenter_
+- `View`
+- `ViewController.swift` _Your ViewConroller_
+- `ViewInterface.swift` _View interface_
+- `Wireframe`
+- `Wireframe.swift` _Wireframe_
