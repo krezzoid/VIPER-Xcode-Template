@@ -12,8 +12,8 @@ This template allow you automatically create all required files and folder for [
 # Architecture
 
 - `App logic`
-- `Interactor`
-- `Interactor.swift` _Interactor_
+-- `Interactor`
+--- `Interactor.swift` _Interactor_
 - `InteractorIO.swift` _Interator IO interface_
 - `Manager`
 - `DataManager.swift` _Data manager_
