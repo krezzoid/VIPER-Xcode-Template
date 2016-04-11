@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewInterface {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 	// MARK: - Property
     var presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface?
 
@@ -24,4 +24,8 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewInterface {
+
 }

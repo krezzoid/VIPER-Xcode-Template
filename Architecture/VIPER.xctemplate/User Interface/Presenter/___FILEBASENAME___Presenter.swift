@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface, ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface {
 	// MARK: - Property
     let moduleWireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe
     var moduleInteractor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
@@ -19,8 +19,11 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Mod
     }
     
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ module interface
-    
-    // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor output interface
 
     // MARK: - Converting entities
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor output interface
+    
 }
