@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+class ___FILEBASENAMEASIDENTIFIER___Interactor {
 	// MARK: - Property
     let dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager
     let moduleOutput: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
@@ -18,7 +18,9 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___In
         moduleOutput = output
     }
 
-    // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor input interface
-
     // MARK: - Converting raw datas
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___InteractorInput
 }

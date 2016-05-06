@@ -8,19 +8,21 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface {
+class ___FILEBASENAMEASIDENTIFIER___Presenter {
 	// MARK: - Property
-    let moduleWireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe
+    let moduleWireframe = ___FILEBASENAMEASIDENTIFIER___Wireframe()
     var moduleInteractor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
     var userInterface: ___FILEBASENAMEASIDENTIFIER___ViewInterface?
     
-    init (wireFrame: ___FILEBASENAMEASIDENTIFIER___Wireframe) {
-        moduleWireframe = wireFrame
+    init () {
+        moduleWireframe.modulePresenter = self
     }
-    
-    // MARK: - ___FILEBASENAMEASIDENTIFIER___ module interface
 
     // MARK: - Converting entities
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface {
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ModuleInterface
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
