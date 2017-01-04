@@ -8,6 +8,6 @@
 
 import RxSwift
 
-protocol ___FILEBASENAMEASIDENTIFIER___ModuleInterface {
+protocol ___FILEBASENAMEASIDENTIFIER___ModuleInterface: class {
 
 }

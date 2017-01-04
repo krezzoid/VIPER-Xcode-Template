@@ -10,10 +10,14 @@ import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___Interactor {
 	// MARK: - Property
-    let dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager
+    fileprivate var dataManager: ___FILEBASENAMEASIDENTIFIER___DataManagerIO!
     
-    init (manager: ___FILEBASENAMEASIDENTIFIER___DataManager) {
+    init (manager: ___FILEBASENAMEASIDENTIFIER___DataManagerIO) {
         dataManager = manager
+    }
+    
+    deinit {
+        dataManager = nil
     }
 
     // MARK: - Converting raw datas

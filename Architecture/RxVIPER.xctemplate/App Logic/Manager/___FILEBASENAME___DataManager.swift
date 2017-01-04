@@ -12,6 +12,17 @@ class ___FILEBASENAMEASIDENTIFIER___DataManager {
     // MARK: - Property
     
     // MARK: - Life cycle
+    init() {
+        
+    }
+    
+    deinit {
+
+    }
 
     // MARK: - Data management
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___DataManager: ___FILEBASENAMEASIDENTIFIER___DataManagerIO {
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___DataManagerIO
 }

@@ -11,9 +11,13 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 	// MARK: - Property
-    var presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface?
+    var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterIO?
 
 	// MARK: - Life cycle
+    
+    deinit {
+        presenter = nil
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,6 +8,6 @@
 
 import RxSwift
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorIO: class {
+protocol ___FILEBASENAMEASIDENTIFIER___PresenterIO: class {
 
 }

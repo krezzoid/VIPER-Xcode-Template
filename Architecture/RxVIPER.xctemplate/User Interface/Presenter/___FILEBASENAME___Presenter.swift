@@ -10,12 +10,16 @@ import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
 	// MARK: - Property
-    let moduleWireframe = ___FILEBASENAMEASIDENTIFIER___Wireframe()
-    var moduleInteractor: ___FILEBASENAMEASIDENTIFIER___InteractorIO?
-    var userInterface: ___FILEBASENAMEASIDENTIFIER___ViewInterface?
+    fileprivate var moduleInteractor: ___FILEBASENAMEASIDENTIFIER___InteractorIO?
+    fileprivate weak var userInterface: ___FILEBASENAMEASIDENTIFIER___ViewInterface?
     
-    init () {
-        moduleWireframe.modulePresenter = self
+    init (interactor: ___FILEBASENAMEASIDENTIFIER___InteractorIO) {
+        moduleInteractor = interactor
+    }
+
+    deinit {
+        moduleInteractor = nil
+        userInterface = nil
     }
 
     // MARK: - Converting entities
@@ -23,4 +27,8 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter {
 
 extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface {
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ModuleInterface
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterIO {
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___PresenterIO
 }
