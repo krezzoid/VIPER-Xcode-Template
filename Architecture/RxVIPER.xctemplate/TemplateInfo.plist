@@ -8,6 +8,23 @@
 	</array>
 	<key>DefaultCompletionName</key>
 	<string>File</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module:</string>
+			<key>Description</key>
+			<string>The name of the module</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>VIPERModule</string>
+		</dict>
+	</array>
 	<key>Description</key>
 	<string>Create all required files and folders structure for VIPER architecture</string>
 	<key>Kind</key>
