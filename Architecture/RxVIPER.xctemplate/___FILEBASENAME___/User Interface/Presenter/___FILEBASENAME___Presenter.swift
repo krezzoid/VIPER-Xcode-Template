@@ -4,10 +4,11 @@ import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___ {
     fileprivate var interactor: ___VARIABLE_productName:identifier___InteractorIO!
-    fileprivate weak var interface: ___VARIABLE_productName:identifier___ViewInterface?
+    fileprivate weak var interface: ___VARIABLE_productName:identifier___ViewInterface!
 
-    init (interactor: ___VARIABLE_productName:identifier___InteractorIO) {
+    init (interactor: ___VARIABLE_productName:identifier___InteractorIO, interface: ___VARIABLE_productName:identifier___ViewInterface) {
         self.interactor = interactor
+        self.interface = interface
     }
 
     deinit {
