@@ -12,5 +12,7 @@ class ___FILEBASENAMEASIDENTIFIER___ {
     deinit { manager = nil }
 }
 
+// MARK: - ___FILEBASENAMEASIDENTIFIER___IO
 extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___IO {
+
 }

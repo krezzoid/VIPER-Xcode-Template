@@ -8,6 +8,3 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
     deinit { presenter = nil }
 }
-
-extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___ViewInterface {
-}
