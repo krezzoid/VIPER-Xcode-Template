@@ -3,7 +3,7 @@
 import RxSwift
 
 class ___FILEBASENAMEASIDENTIFIER___ {
-    fileprivate var manager: ___VARIABLE_productName:identifier___DataManagerIO!
+    private var manager: ___VARIABLE_productName:identifier___DataManagerIO!
 
     init (manager: ___VARIABLE_productName:identifier___DataManagerIO) {
         self.manager = manager
